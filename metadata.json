@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "nautrw@proton.me",
+                "Name": "nautrw"
+            }
+        ],
+        "Dependencies": [],
+        "Name": "All Windows To Next Screen",
+        "Description": "Adds a shortcut to move all windows to their next screen independently of each other",
+        "Id": "kwin-all-windows-to-next-screen",
+        "License": "GPL",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0"
+    },
+    "KPackageStructure": "KWin/Script",
+    "X-KDE-PluginKeyword": "kwin-all-windows-to-next-screen",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
